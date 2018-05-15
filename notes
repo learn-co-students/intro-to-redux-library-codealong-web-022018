@@ -1,0 +1,6 @@
+add redux
+  npm install redux --save
+talk to redux tools //add in index.js`
+  const store = createStore(shoppingListItemReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()); /* code change */
+add store from redux
+  import {createStore} from 'redux'
